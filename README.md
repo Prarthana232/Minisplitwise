@@ -1,4 +1,4 @@
-
+#MINI-SPLITWISE
 💸 MINI SPLITWISE – Expense Sharing Web Application
 
 📌 Overview
@@ -89,7 +89,7 @@ Frontend
 - CSS3
 - JavaScript
 
-Backend (Basic Setup)
+Backend 
 
 - Java
 - Spring Boot
