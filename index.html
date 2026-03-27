@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mini Splitwise</title>
+  <link rel="stylesheet" href="first.css">
+</head>
+
+<body>
+
+<div class="watermark"></div>
+
+<div class="header">
+  <img src="logo.png" class="logo">
+  <h1>MINI SPLITWISE</h1>
+  <p>Split expenses easily with your friends</p>
+</div>
+
+<div class="app">
+
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+    <h2>Friends</h2>
+
+    <div class="friend-input">
+      <input id="friendInput" placeholder="Add friend">
+      <button onclick="addFriend()">+</button>
+    </div>
+
+    <div id="friendsList"></div>
+  </div>
+
+  <!-- MAIN -->
+  <div class="main">
+
+    <div class="dashboard">
+      <div class="card">
+        <p>Total Expense</p>
+        <h3 id="totalExpense">₹0</h3>
+      </div>
+
+      <div class="card">
+        <p>Total Users</p>
+        <h3 id="totalUsers">0</h3>
+      </div>
+
+      <div class="card">
+        <p>Items</p>
+        <h3 id="totalItems">0</h3>
+      </div>
+    </div>
+
+    <div class="split-container">
+
+      <!-- EQUAL -->
+      <div class="box">
+        <h2>Equal Split</h2>
+
+        <input id="total" type="number" placeholder="Total amount">
+        <button onclick="splitEqual()">Split Equally</button>
+
+        <pre id="equalResult"></pre>
+        <div id="equalStatus"></div>
+      </div>
+
+      <!-- DUTCH -->
+      <div class="box">
+        <h2>Dutch Split</h2>
+
+        <textarea id="items"></textarea>
+
+        <input id="tax" type="number" placeholder="Tax %">
+        <input id="tip" type="number" placeholder="Tip %">
+
+        <button onclick="splitDutch()">Calculate Split</button>
+
+        <pre id="dutchResult"></pre>
+        <div id="dutchStatus"></div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

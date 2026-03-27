@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  background: linear-gradient(135deg, #e3f2fd, #fce4ec);
+}
+
+/* WATERMARK */
+.watermark {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  background: url("logo.png") no-repeat center;
+  background-size: contain;
+  opacity: 0.05;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+}
+
+.logo {
+  width: 40px;
+}
+
+/* LAYOUT */
+.app {
+  display: flex;
+}
+
+.sidebar {
+  width: 220px;
+  background: white;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* FRIENDS */
+.friend-input {
+  display: flex;
+  gap: 5px;
+  margin: 10px 0;
+}
+
+.friend-input button {
+  background: green;
+  color: white;
+  width: 40px;
+}
+
+/* MAIN */
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+.dashboard {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.card {
+  flex: 1;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.split-container {
+  display: flex;
+  gap: 20px;
+}
+
+.box {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* INPUT */
+input, textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+/* RESULT */
+pre {
+  background: #eee;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* ✅ COMPACT STATUS */
+.status-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+/* 🔥 SMALL BADGE STYLE */
+.status-btn {
+  padding: 3px 10px;
+  font-size: 12px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  min-width: 70px;
+}
+
+/* COLORS */
+.paid {
+  background: #28a745;
+  color: white;
+}
+
+.unpaid {
+  background: #dc3545;
+  color: white;
+}
