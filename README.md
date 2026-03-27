@@ -1,3 +1,4 @@
+#💸MINISPLITWISE
 💸 MINI SPLITWISE – Expense Sharing Web Application
 
 📌 Overview
