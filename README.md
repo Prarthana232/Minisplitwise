@@ -101,8 +101,6 @@ Backend
 - Configuration files ("pom.xml", resources)
 - Ready for API integration
 
-«Note: Core logic is currently handled on the frontend.»
-
 ---
 
 🧠 Core Logic
@@ -147,7 +145,7 @@ MiniSplitwise/
 
 🛠️ How to Run
 
-Backend (Optional Setup)
+Backend 
 
 cd backend
 mvn spring-boot:run
@@ -187,8 +185,5 @@ open index.html
 - Add user authentication
 - Improve UI responsiveness
 - Implement settlement logic (who pays whom)
-
----
-.
 
 ---
