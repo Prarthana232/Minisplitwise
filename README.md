@@ -169,15 +169,6 @@ open index.html
 
 ---
 
-⚠️ Limitations
-
-- No database (data not stored permanently)
-- No authentication system
-- Backend not fully integrated with frontend
-- Limited mobile responsiveness
-
----
-
 📈 Future Improvements
 
 - Connect frontend with backend APIs
